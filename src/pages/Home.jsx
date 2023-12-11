@@ -64,13 +64,13 @@ const Home = () => {
 //   console.log("tableData",tableData);
   return (
     <div >
-        <h1 className="d-flex justify-content-center">CRUD OPERATIONS</h1>
+        <h1 className="d-flex justify-content-center">School Management System</h1>
         <div className="d-flex justify-content-center">
             <form onSubmit={handleSubmit} >
                 <div class="row mb-3">
                     <label class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" 
+                        <input type="text" class="form-control" placeholder='Enter Your Name'
                             name='name'
                             value={inputs.name}
                             onChange={handleChange}
@@ -81,7 +81,7 @@ const Home = () => {
                 <div class="row mb-3">
                     <label class="col-sm-2 col-form-label">Class</label>
                     <div class="col-sm-10">
-                        <input type="number" class="form-control"
+                        <input type="number" class="form-control" placeholder='Enter Your Class'
                             name='class'
                             value={inputs.class}
                             onChange={handleChange}
@@ -92,7 +92,7 @@ const Home = () => {
                 <div class="row mb-3">
                     <label class="col-sm-2 col-form-label">Section</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" 
+                        <input type="text" class="form-control" placeholder='Enter Your Section'
                             name='section'
                             value={inputs.section}
                             onChange={handleChange}
@@ -103,7 +103,7 @@ const Home = () => {
                 <div class="row mb-3">
                     <label class="col-sm-2 col-form-label">Roll No</label>
                     <div class="col-sm-10">
-                        <input type="number" class="form-control"
+                        <input type="number" class="form-control" placeholder='Enter Your Roll Number'
                             name='rollno'
                             value={inputs.rollno}
                             onChange={handleChange}
@@ -114,7 +114,7 @@ const Home = () => {
                 <div class="row mb-3">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3"
+                        <input type="email" class="form-control" id="inputEmail3" placeholder='Enter Your Email Address'
                             name='email'
                             value={inputs.email}
                             onChange={handleChange}
